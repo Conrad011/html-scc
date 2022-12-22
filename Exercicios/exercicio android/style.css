@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    src: url('__MACOSX/font/IDroid.otf');
+    font-family: 'raweyls-reguralar';    
+    font-weight: normal;
+} 
+
+#h1{
+    color:#038C3E ;
+    font-family: 'Raleway-Regular';
+    
+}
+h2{
+    border: 10px;
+    color: #038C3E;
+    background-color: #7b9e7dab;
+    margin-top: 10px;
+    font-family: 'Raleway-Regular';
+}
+.p{
+    text-indent: 30px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.h3{
+    background-color: rgba(23, 219, 23, 0.678);
+    border-radius: 15px;
+    text-align: justify;
+    width: 700px;
+    padding: 0px;
+    margin: auto;
+}
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.color{
+    color: lightgray;
+}
+.class{
+    margin: 20px;
+}
+body{
+    margin: auto;
+    font: normal 16px normal;
+    font-family:'android';
+    background-color: aquamarine;
+    min-width: 300px;
+    max-width: 850px;
+}
+header{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #06d410;
+    text-align: center;
+    padding: 6px;
+    
+}
+
+nav{
+    text-align: left;
+    margin: 3px;
+}
+span > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+span > a:hover{
+    text-decoration: underline;
+}
+
+span > a:hover{
+    
+    display: inline-block;
+    color: lightgray;
+    height: 300px;
+
+}
+main{
+    
+    background-color: white;
+    box-shadow: 5px 5px 15px;
+    text-align: justify;
+    width: 820px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.img{
+    margin: auto;
+    display: block;
+    
+}
+.section{
+    border-radius: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+img{
+    max-width: 100%;
+}

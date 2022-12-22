@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+    
+.img{
+    text-align: center;
+}
+
+h1{
+    color: #9AEBA3;
+    font: italic bolder 4em arial, sans-serif;
+    text-align: center;
+}
+body{
+    color: white;
+    background-image: linear-gradient(to bottom, #012030, #13678A, #45C4B0);
+    background-attachment: fixed;
+    font: normal normal 1.2em arial, sans-serif;
+    text-align: justify;
+    
+}
+.img{
+    text-align: center;
+}
