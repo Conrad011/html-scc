@@ -15,12 +15,12 @@
 
 
 :root{
-    --cor0: ;
-    --cor1:;
-    --cor2:;
-    --cor3:;
-    --cor4:;
-    --cor5:;
+    --cor0: #060A08;
+    --cor1:#09070A ;
+    --cor2:#2B5741;
+    --cor3:#0A0805;
+    --cor4:#573F10;
+    --cor5:#2B5741;
 
     --fonte-padrao: Arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursiva;;
