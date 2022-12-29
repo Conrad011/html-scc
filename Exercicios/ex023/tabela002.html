@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -25,11 +26,19 @@
             padding: 20px;
             text-align: center;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
         .capital{
             text-align: left ;
         }
         thead, tfoot{
-            background-color: grey;
+            background-color: #383838;
             color: white;
         }
         .numero{
@@ -44,8 +53,8 @@
         <caption>10 estados mais populosos do Brasil</caption>
        <thead>
            <tr>
-                <th>Estado</th>
-                <th>população</th>
+                <th scope="col">Estado</th>
+                <th scope="col">população</th>
             </tr>
        </thead>
         <tbody>
@@ -92,7 +101,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 
                     <td><strong>000000</strong></td>
                 
@@ -100,5 +109,11 @@
            
         </tfoot>
     </table>
+   
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem totam, harum quis accusantium ducimus architecto ipsa repudiandae at deleniti, possimus id itaque optio labore facere ipsam amet assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nobis labore maiores alias corporis ut, quaerat laborum veniam nesciunt, reprehenderit obcaecati sunt repellendus. Recusandae culpa incidunt asperiores! Exercitationem, dolores repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae unde veritatis doloremque autem? Quia cumque dolorem aliquid enim veritatis ratione delectus excepturi exercitationem, voluptas fugiat praesentium error. Doloribus, dolorem!</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem totam, harum quis accusantium ducimus architecto ipsa repudiandae at deleniti, possimus id itaque optio labore facere ipsam amet assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nobis labore maiores alias corporis ut, quaerat laborum veniam nesciunt, reprehenderit obcaecati sunt repellendus. Recusandae culpa incidunt asperiores! Exercitationem, dolores repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae unde veritatis doloremque autem? Quia cumque dolorem aliquid enim veritatis ratione delectus excepturi exercitationem, voluptas fugiat praesentium error. Doloribus, dolorem!</p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem totam, harum quis accusantium ducimus architecto ipsa repudiandae at deleniti, possimus id itaque optio labore facere ipsam amet assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nobis labore maiores alias corporis ut, quaerat laborum veniam nesciunt, reprehenderit obcaecati sunt repellendus. Recusandae culpa incidunt asperiores! Exercitationem, dolores repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae unde veritatis doloremque autem? Quia cumque dolorem aliquid enim veritatis ratione delectus excepturi exercitationem, voluptas fugiat praesentium error. Doloribus, dolorem!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem totam, harum quis accusantium ducimus architecto ipsa repudiandae at deleniti, possimus id itaque optio labore facere ipsam amet assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nobis labore maiores alias corporis ut, quaerat laborum veniam nesciunt, reprehenderit obcaecati sunt repellendus. Recusandae culpa incidunt asperiores! Exercitationem, dolores repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae unde veritatis doloremque autem? Quia cumque dolorem aliquid enim veritatis ratione delectus excepturi exercitationem, voluptas fugiat praesentium error. Doloribus, dolorem!</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem totam, harum quis accusantium ducimus architecto ipsa repudiandae at deleniti, possimus id itaque optio labore facere ipsam amet assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nobis labore maiores alias corporis ut, quaerat laborum veniam nesciunt, reprehenderit obcaecati sunt repellendus. Recusandae culpa incidunt asperiores! Exercitationem, dolores repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae unde veritatis doloremque autem? Quia cumque dolorem aliquid enim veritatis ratione delectus excepturi exercitationem, voluptas fugiat praesentium error. Doloribus, dolorem!</p>
 </body>
 </html>
