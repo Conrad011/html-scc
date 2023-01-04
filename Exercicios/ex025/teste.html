@@ -14,26 +14,29 @@
 <body>
     <h1>teste dos formulários</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
-        <p>
-           <label for="iemail">e-mail</label>
-           <input type="email" name="email" id="iemail" required placeholder="e-mail" size="30" autocomplete="email">
-        </p>
-        <p>
-            <label for="isen">Senha</label>
-            <input type="number" name="Senha" id="isen" required minlength="5" maxlength="12" placeholder="senha" size="10" autocomplete="current-password">
-        </p>
-        <p>
-            <label for="iloc">Tempo</label>
-            <input type="datetime-local" name="loca" id="iloc">
-        </p>
-        <p>
-            <label for="ide">checar</label>
-            <input type="checkbox" name="aide" id="ide">
-        </p>
-        <p>
-            <label for="else">Pesquisar</label>
-            <input type="search" name="if" id="else">
-        </p>
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+               <label for="iemail">e-mail</label>
+               <input type="email" name="email" id="iemail" required placeholder="e-mail" size="30" autocomplete="email">
+            </p>
+            <p>
+                <label for="isen">Senha</label>
+                <input type="password" name="Senha" id="isen" required minlength="5" maxlength="12" placeholder="senha" size="10" autocomplete="current-password">
+            </p>
+            <p>
+                <label for="iloc">Tempo</label>
+                <input type="datetime-local" name="loca" id="iloc">
+            </p>
+            <p>
+                <label for="ide">checar</label>
+                <input type="checkbox" name="aide" id="ide">
+            </p>
+            <p>
+                <label for="else">Pesquisar</label>
+                <input type="search" name="if" id="else">
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
