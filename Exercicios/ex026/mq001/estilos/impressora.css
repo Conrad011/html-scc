@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Estilo para impessora*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+HTML{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
