@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1{
+   
+    text-align: center;
+}
+menu li{
+   list-style-type: none;
+   padding: 0px 10px 0px 10px;
+}
+menu li>a{
+    padding: 15px;
+    padding: 6px 10px 4px 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px 8px 0px 0px;
+}
