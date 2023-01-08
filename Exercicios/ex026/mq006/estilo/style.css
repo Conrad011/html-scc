@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
+
     
-}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -12,54 +12,81 @@ body, html{
     background-color: lightgrey;
 }
 header{
-    background-color: rgba(128, 128, 128, 0.61);
+    background-color: grey;
 }
-header>h1{
-    text-align: center;
+header h1{
     padding: 20px;
+    text-align: center;
 }
-header li{
-    display: inline-block;
-    list-style-type: none;
-    background-color: gray;
+#menu{
+    background-color: rgb(48, 48, 48);
     color: white;
+    display: block;
+    text-align: center;
     padding: 10px;
-    border-radius: 5px 5px 0px 0px;
-    
+    cursor: pointer;
 }
-menu>ul>li>a{
-    text-decoration: none;
-    color: white;
-    
-}
-main{
-    margin-top: 10px;
-    width: 96vw;
-}
-article{
-    margin: auto;
-    margin: auto;
+#menu:hover{
     background-color: white;
+    color: black;
+}
+menu{
+    display: none;
+}
+menu >ul{
+    list-style-type: none;
+}
+menu > ul > li >a {
+    display: block;
     padding: 10px;
-    text-align: justify;
-    text-indent: 20px;
+    text-decoration: none;
+    background-color: rgba(87, 87, 87);
+    color: white;
+    text-align: center;
+    border-top:1px solid rgb(68, 67, 67);
+}
+menu > ul > li >a:hover{
+    background-color: grey;
+}
+
+    
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
     border-radius: 10px;
 }
+article h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+article p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
 @media screen and (min-width:768px) and (max-width:992px){ /*tablet*/
    main{
     width: 90vw;
     margin: auto;
+    margin-top: 20px;
    }
 }
 @media screen and (min-width:992px) and (max-width:1200px){
     main{
         width: 90vw;
         margin: auto;
+        margin-top: 20px;
        }
 }
 @media screen and (min-width:1200px){
     main{
         width: 1200px;
         margin: auto;
+        margin-top: 20px;
        }
-}
+} 
